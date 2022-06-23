@@ -25,7 +25,12 @@ padding: 1rem;
 
 
 .logo{
-    background-color: gray;
+    /* background-color: gray; */
+    background-image: url(./img/ritman\ logo.jpg);
+    width: 5%;
+    height: 10vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -76,18 +81,18 @@ p{
 .fullstack{
     display: flex;
     justify-content: space-between; 
-    /* display: grid;
-   grid-template-columns: (8,1fr); */
-    background-color: blue;
-    gap: 10px;
+margin-right: 0.5rem;
+   
  
    
 }
 .box-n{
-    
+    background-color: blue; 
     border-radius: 10px;
     overflow: hidden;
-box-shadow: 4px;
+box-shadow: 4px 4px 2px gray;
+margin-right: 1rem;
+padding: 1rem;
 }
 a{
      
@@ -111,5 +116,6 @@ html, body{
     /* flex-grow: 0; */
 
 }
+
 
 }
